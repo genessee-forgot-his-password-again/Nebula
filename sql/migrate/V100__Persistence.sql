@@ -9,6 +9,8 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
+-- Dumping structure for table persistent.list_element
+DROP TABLE IF EXISTS `list_element`;
 CREATE TABLE IF NOT EXISTS `list_element` (
   `id` int NOT NULL AUTO_INCREMENT,
   `list_id` int NOT NULL,
@@ -19,6 +21,9 @@ CREATE TABLE IF NOT EXISTS `list_element` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+-- Data exporting was unselected.
+-- Dumping structure for table persistent.thing
+DROP TABLE IF EXISTS `thing`;
 CREATE TABLE IF NOT EXISTS `thing` (
   `p_id` varchar(12) NOT NULL,
   `type` varchar(256) NOT NULL,
@@ -29,6 +34,9 @@ CREATE TABLE IF NOT EXISTS `thing` (
   PRIMARY KEY (`p_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+-- Data exporting was unselected.
+-- Dumping structure for table persistent.thing_var
+DROP TABLE IF EXISTS `thing_var`;
 CREATE TABLE IF NOT EXISTS `thing_var` (
   `id` int NOT NULL AUTO_INCREMENT,
   `thing_id` varchar(12) NOT NULL,
@@ -38,6 +46,9 @@ CREATE TABLE IF NOT EXISTS `thing_var` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+-- Data exporting was unselected.
+-- Dumping structure for table persistent.z_level
+DROP TABLE IF EXISTS `z_level`;
 CREATE TABLE IF NOT EXISTS `z_level` (
   `id` int NOT NULL AUTO_INCREMENT,
   `z` int NOT NULL,
@@ -48,14 +59,16 @@ CREATE TABLE IF NOT EXISTS `z_level` (
   UNIQUE KEY `id_UNIQUE` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+DROP TABLE IF EXISTS `limbo`;
 CREATE TABLE IF NOT EXISTS `limbo` (
   `key` longtext NOT NULL,
   `type` varchar(64) NOT NULL,
-  `p_id` varchar(12) NOT NULL,
+  `p_ids` longtext NOT NULL,
   `metadata` varchar(64) DEFAULT NULL,
   `limbo_assoc` varchar(12) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=UTF8MB4;
 
+DROP TABLE IF EXISTS `limbo_list_element`;
 CREATE TABLE IF NOT EXISTS `limbo_list_element` (
   `id` int NOT NULL AUTO_INCREMENT,
   `list_id` int NOT NULL,
@@ -67,6 +80,9 @@ CREATE TABLE IF NOT EXISTS `limbo_list_element` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+-- Data exporting was unselected.
+-- Dumping structure for table persistent.thing
+DROP TABLE IF EXISTS `limbo_thing`;
 CREATE TABLE IF NOT EXISTS `limbo_thing` (
   `p_id` varchar(12) NOT NULL,
   `type` varchar(256) NOT NULL,
@@ -77,6 +93,9 @@ CREATE TABLE IF NOT EXISTS `limbo_thing` (
   PRIMARY KEY (`p_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+-- Data exporting was unselected.
+-- Dumping structure for table persistent.thing_var
+DROP TABLE IF EXISTS `limbo_thing_var`;
 CREATE TABLE IF NOT EXISTS `limbo_thing_var` (
   `id` int NOT NULL AUTO_INCREMENT,
   `thing_id` varchar(12) NOT NULL,
@@ -86,3 +105,6 @@ CREATE TABLE IF NOT EXISTS `limbo_thing_var` (
   `limbo_assoc` varchar(12) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+-- Data exporting was unselected.
+/*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

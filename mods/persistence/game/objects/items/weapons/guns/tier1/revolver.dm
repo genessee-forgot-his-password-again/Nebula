@@ -1,5 +1,5 @@
 /obj/item/gun/projectile/revolver/simple
-	name = "FSS R 'Chief'"
+	name = "ZSS R 'Chief'"
 	desc = "A pocket revolver of ancient design intended for use by ground police forces and for civilian self-defense. The Chief model is known as a reliable weapon galaxy-wide, though its use of pistol rounds leaves it lacking in stopping power. Chambered in 10mm rounds."
 	icon = 'mods/persistence/icons/obj/guns/tier1/revolver.dmi'
 	origin_tech = "{'combat':3,'engineering':2,'materials':2}"

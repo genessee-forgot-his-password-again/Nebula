@@ -21,5 +21,5 @@
 		list(mode_name="fire both barrels at once", burst=2),
 		)
 
-/obj/item/gun/projectile/shotgun/double/empty
+/obj/item/gun/projectile/shotgun/simple/empty
 	starts_loaded = FALSE

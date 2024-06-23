@@ -4,7 +4,7 @@
 	icon = 'mods/persistence/icons/obj/guns/tier2/revolver.dmi'
 	origin_tech = "{'combat':15,'engineering':15,'materials':6}"
 	caliber = CALIBER_357
-	ammo_type = /obj/item/ammo_casing/threefiftyseven/advanced
+	ammo_type = /obj/item/ammo_casing/threefiftyseven/tiertwo
 	max_shells = 5
 	w_class = ITEM_SIZE_NORMAL
 	fire_delay = 10

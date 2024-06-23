@@ -11,7 +11,7 @@
 	one_hand_penalty = 0
 	accuracy = 0
 	auto_eject = 0
-	magazine_type = /obj/item/ammo_magazine/twentytwolr/advanced
+	magazine_type = /obj/item/ammo_magazine/twentytwolr/tiertwo
 	allowed_magazines = /obj/item/ammo_magazine/twentytwolr
 	material = /decl/material/solid/metal/titanium
 	matter = list(

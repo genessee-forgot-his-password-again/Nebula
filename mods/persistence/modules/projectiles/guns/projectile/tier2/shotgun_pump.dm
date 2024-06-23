@@ -10,7 +10,7 @@
 	caliber = CALIBER_12G
 	origin_tech = "{'combat':15,'engineering':15,'materials':6}"
 	load_method = SINGLE_CASING
-	ammo_type = /obj/item/ammo_casing/twelvegauge/slug/advanced
+	ammo_type = /obj/item/ammo_casing/twelvegauge/slug/tiertwo
 	handle_casings = HOLD_CASINGS
 	one_hand_penalty = 10
 	material = /decl/material/solid/metal/titanium

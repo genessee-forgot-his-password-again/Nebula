@@ -10,7 +10,7 @@
 	origin_tech = "{'combat':15,'engineering':15,'materials':6}"
 	ammo_indicator = FALSE
 	w_class = ITEM_SIZE_NORMAL
-	magazine_type = /obj/item/ammo_magazine/fortyfive/advanced
+	magazine_type = /obj/item/ammo_magazine/fortyfive/tiertwo
 	allowed_magazines = /obj/item/ammo_magazine/fortyfive
 	material = /decl/material/solid/metal/titanium
 	matter = list(

@@ -10,7 +10,7 @@
 	load_method = SINGLE_CASING
 	max_shells = 5
 	w_class = ITEM_SIZE_HUGE
-	ammo_type = /obj/item/ammo_casing/fivefiftysix
+	ammo_type = /obj/item/ammo_casing/fivefiftysix/tierone
 	one_hand_penalty = 10
 	fire_delay = 12
 	accuracy = 0

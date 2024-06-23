@@ -16,7 +16,7 @@
 	name = "makeshift .357 round"
 	desc = ".357 round of dubious origin. Sports poor range and poor armor penetration due to shoddy construction."
 	icon = 'mods/persistence/icons/obj/ammunition/357/tier0.dmi'
-	projectile_type = /obj/item/projectile/bullet/threefiftyseven/handmade
+	projectile_type = /obj/item/projectile/bullet/threefiftyseven/tierzero
 
 /obj/item/projectile/bullet/threefiftyseven/tierzero
 	damage = 40

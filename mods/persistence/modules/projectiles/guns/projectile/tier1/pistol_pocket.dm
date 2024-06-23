@@ -10,7 +10,7 @@
 	caliber = CALIBER_22LR
 	ammo_indicator = FALSE
 	w_class = ITEM_SIZE_SMALL
-	magazine_type = /obj/item/ammo_magazine/twentytwolr/simple
+	magazine_type = /obj/item/ammo_magazine/twentytwolr/tierone
 	allowed_magazines = /obj/item/ammo_magazine/twentytwolr
 	material = /decl/material/solid/metal/steel
 	matter = list(

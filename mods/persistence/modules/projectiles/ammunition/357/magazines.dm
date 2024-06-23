@@ -27,7 +27,7 @@
 	icon_state = "3570"
 	origin_tech = "{'combat':5,'materials':5}"
 	material = /decl/material/solid/organic/plastic
-	ammo_type = /obj/item/ammo_casing/threefiftyseven/handmade
+	ammo_type = /obj/item/ammo_casing/threefiftyseven/tierzero
 	max_ammo = 3
 
 /obj/item/ammo_magazine/box_threefiftyseven/tierzero
@@ -39,7 +39,7 @@
 	matter = list(
 		/decl/material/solid/organic/plastic = MATTER_AMOUNT_TRACE
 	)
-	ammo_type = /obj/item/ammo_casing/threefiftyseven/handmade
+	ammo_type = /obj/item/ammo_casing/threefiftyseven/tierzero
 
 /obj/item/ammo_magazine/threefiftyseven/tierone
 	name = "standard .357 speedloader"
@@ -50,7 +50,7 @@
 	matter = list(
 		/decl/material/solid/organic/plastic = MATTER_AMOUNT_REINFORCEMENT
 	)
-	ammo_type = /obj/item/ammo_casing/threefiftyseven/simple
+	ammo_type = /obj/item/ammo_casing/threefiftyseven/tierone
 	max_ammo = 4
 
 /obj/item/ammo_magazine/box_threefiftyseven/tierone
@@ -63,7 +63,7 @@
 		/decl/material/solid/organic/plastic   = MATTER_AMOUNT_REINFORCEMENT,
 		/decl/material/solid/organic/cardboard = MATTER_AMOUNT_TRACE
 	)
-	ammo_type = /obj/item/ammo_casing/threefiftyseven/simple
+	ammo_type = /obj/item/ammo_casing/threefiftyseven/tierone
 
 /obj/item/ammo_magazine/threefiftyseven/tiertwo
 	name = "advanced .357 speedloader"
@@ -75,7 +75,7 @@
 		/decl/material/solid/organic/plastic   = MATTER_AMOUNT_REINFORCEMENT,
 		/decl/material/solid/organic/cardboard = MATTER_AMOUNT_TRACE
 	)
-	ammo_type = /obj/item/ammo_casing/threefiftyseven/advanced
+	ammo_type = /obj/item/ammo_casing/threefiftyseven/tiertwo
 	max_ammo = 5
 
 /obj/item/ammo_magazine/box_threefiftyseven/tiertwo
@@ -89,4 +89,4 @@
 		/decl/material/solid/metal/aluminium = MATTER_AMOUNT_TRACE,
 		/decl/material/solid/organic/cardboard = MATTER_AMOUNT_TRACE
 	)
-	ammo_type = /obj/item/ammo_casing/threefiftyseven/advanced
+	ammo_type = /obj/item/ammo_casing/threefiftyseven/tiertwo
